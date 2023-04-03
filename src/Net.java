@@ -1,3 +1,8 @@
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
 public class Net {
 
     private static String[] erreichbar = {
@@ -98,6 +103,8 @@ public class Net {
 
 
     public static void main(String[] args) {
+        Set<String> a = new HashSet<>();
+        int x = a.size();
     }
 
 }
